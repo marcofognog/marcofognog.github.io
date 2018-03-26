@@ -1,0 +1,41 @@
+---
+layout: post
+title: Experimentos com variáveis de instância do Ruby
+date: 2010-12-31 05:40:31.000000000 -02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Ruby itself
+tags: []
+meta:
+  _edit_last: '9774445'
+author:
+  login: marcofognog
+  email: marcofognog@gmail.com
+  display_name: marcofognog
+  first_name: ''
+  last_name: ''
+---
+<p>Lendo sobre como o Java trabalha com objetos resolvi testar para saber como o ruby se comporta. O exemplo a seguir compara a cópia de variáveis do tipo Fixnum com cópia de variáveis de instância. Bem curioso.</p>
+<p>[sourcecode language="ruby"]<br />
+@um = 1<br />
+@dois = @um #Copia o valor de uma variável para outra.<br />
+@dois = 2<br />
+puts @um#=&gt; 1 //ok!<br />
+puts @dois#=&gt; 2 //ok<br />
+class Pessoa<br />
+	attr_accessor :name<br />
+end<br />
+@marcao = Pessoa.new<br />
+@rafael = @marcao<br />
+@marcao.name = &quot;Marco&quot;<br />
+puts @marcao.name #=&gt; &quot;Marco&quot;<br />
+@rafael.name = &quot;Rafael&quot;<br />
+puts @marcao.name #=&gt; &quot;Rafael&quot; //êpa?</p>
+<p>[/sourcecode]</p>
+<p>Esse exemplo é a prova de que o ruby usa as variáveis de instância para apontar para um local na memória, e na verdade as variáveis não contém o objeto propriamente dito. Quando copiamos o valor de uma variável de instância para outra, estamos copiando o endreço na memória. Passam a ser nomes diferentes para o memo objeto.</p>
+<p>Acho importante ficar esperto com isso, por que as vezes são esses tipos de detalhes que atrasam algumas horas do nosso trabalho!</p>
+<p>Bom, além do Ruby, eu sei que o Java funciona assim também. Será que alguma linguagem faz diferente disso? Se souber me diga!</p>

@@ -1,0 +1,40 @@
+---
+layout: post
+title: Cotações das ações na bolsa de valores com Ruby e Sinatra
+date: 2010-12-01 15:56:20.000000000 -02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Sinatra
+tags: []
+meta:
+  _edit_last: '9774445'
+  _wp_old_slug: ''
+  _oembed_1919983f8b737895e24d497db136c1c6: "{{unknown}}"
+author:
+  login: marcofognog
+  email: marcofognog@gmail.com
+  display_name: marcofognog
+  first_name: ''
+  last_name: ''
+---
+<p>Neste post eu quero explicar como fazer uma aplicação que pegue dados sobre papéis da Bovespa, diretamente do site da Bovespa.</p>
+<p>A Bovespa oferece um serviço gatuito de informações sobre as cotações dos papéis negociados, via XML no site deles. É bem provável que seja desse serviço que site como FolhaInvest e o SimulaBolsa conseguem as inforamções para o simulador.</p>
+<p>Esse serviço tem um delay de 15 min. Quer dizer que toda informação estará pelos menos 15 minutos atrasada. A Bovespa tem um serviço que presta informações em tempo real também, mas é pago (e não é barato). Esse serviço pago é muito útil pra quem trabalha como trader e quer implementar seus próprios indicadores no curtíssimo prazo, para operar como <em>daytrader</em>. É provavelmente desse serviço pago da Bovespa que os homebrokers e sites como o ADVFN conseguem informações em tempo real.</p>
+<p>Para conseguir ler os dados, vamo instalar a gem bovespa, com o comando:</p>
+<p>[sourcecode]$ gem install bovespa[/sourcecode]</p>
+<p>Para começar a usar, é só passar o código do ativo para o método construtor e será instanciado um objeto com todas as propridades do ativo. A partir daí, é só acessar os valores usando os métodos.</p>
+<p>[sourcecode language="ruby"]<br />
+require 'bovespa'<br />
+@ativo = Bovespa::Cotacao.new('petr4')<br />
+puts @ativo.ultimo_valor<br />
+[/sourcecode]</p>
+<p>Se você salvar o código acima em um arquivo cotacao.rb, você já vai poder ver isso funcionando. Só rodar no terminal:</p>
+<p>[sourcecode]$ ruby cotacao.rb[/sourcecode]</p>
+<p>Na minha conta no github você encontra o código que consulta a bovespa e exibe as informações dos papeis através de uma busca, usando o Sinatra.</p>
+<p><a href="https://github.com/marcofognog/bovespa_exemplo">https://github.com/marcofognog/bovespa_exemplo</a></p>
+<p>Achei mais interessante usar o Sinatra por ser uma aplicação bem simples, e que não precisa de toda a infraestrutura que tem o Rails.</p>
+<p>Qualquer dúvida ou sugestão, deixa um comentário!</p>

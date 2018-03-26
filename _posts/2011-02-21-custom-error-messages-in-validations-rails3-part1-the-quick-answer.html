@@ -1,0 +1,44 @@
+---
+layout: post
+title: Custom error messages in validations - Rails3 - Part#1 The Quick Answer
+date: 2011-02-21 03:50:08.000000000 -03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Outros
+tags: []
+meta:
+  _edit_last: '9774445'
+author:
+  login: marcofognog
+  email: marcofognog@gmail.com
+  display_name: marcofognog
+  first_name: ''
+  last_name: ''
+---
+<p>The default error messages when scaffolding a model always put the name of the attribute as first word in the error sentence.</p>
+<p>What if, instead of getting the default validation error messages, we wanted something like "Sorry, Name can't be blank!"? In the model, if you just set the :message option like:</p>
+<p>[sourcecode language="ruby"]validates_presence_of :name, :message =&gt; &quot;Sorry, Name can't be blank&quot;[/sourcecode]</p>
+<p>...you are gonna get something like "NameSorry, Name can't be blank"</p>
+<p>While researching, I found many ways to accomplish this, but first I am gonna show the way I think is the best (in case you are looking for some quick answer), and later I'm gonna explain the other ways and why I think this is the best, and hopefully you'r gonna understand how this works (it's not that hard.)</p>
+<p>How to get customized error messages in rails 3 validations?</p>
+<p><strong>The quick answer:</strong></p>
+<p>keep this in your model:</p>
+<p>[sourcecode language="ruby"]validates_presence_of :name, :message =&gt; &quot;Sorry, Name can't be blank&quot;[/sourcecode]</p>
+<p>and in the view, instead of leaving</p>
+<p>[sourcecode language="ruby"]<br />
+&lt;% @instance.errors.full_messages.each do |msg| %&gt;<br />
+    &lt;li&gt;&lt;%= msg %&gt;&lt;/li&gt;<br />
+&lt;% end %&gt;<br />
+[/sourcecode]</p>
+<p>...as it would be when we use the scaffold generator, replace by:</p>
+<p>[sourcecode language="ruby"]<br />
+ &lt;% @instance.errors.each do |attr,msg| %&gt;<br />
+     &lt;li&gt;&lt;%= msg %&gt;&lt;/li&gt;<br />
+ &lt;% end %&gt;<br />
+ [/sourcecode]</p>
+<p>And you will get just the message you especified in the model, without the attribute name!</p>
+<p>Maybe, that was enough for you to figure it all out, if it wasn't, in next post I'll show how it woks in details, in case you are wondering. <a href="http://marcofnogueira.wordpress.com/2011/02/21/custom-error-messages-in-validations-rails3-part2-the-long-answer/">Here</a> it is.</p>

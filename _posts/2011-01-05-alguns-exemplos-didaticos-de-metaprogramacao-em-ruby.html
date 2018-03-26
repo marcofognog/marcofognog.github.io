@@ -1,0 +1,56 @@
+---
+layout: post
+title: Alguns exemplos didáticos de metaprogramação em Ruby
+date: 2011-01-05 17:11:24.000000000 -02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Ruby itself
+tags: []
+meta:
+  _edit_last: '9774445'
+author:
+  login: marcofognog
+  email: marcofognog@gmail.com
+  display_name: marcofognog
+  first_name: ''
+  last_name: ''
+---
+<div>
+<p>Eu acho que pra aprender programação, não adianta somente entender o que está acontecendo, não é só ler  ou "estudar": tem que praticar. O problema é que programação e seus recursos são bastante específicos na resolução de problemas específicos. Precisa de contexto. Por isso é dificil pra qualquer um dizer "ah, agora vou criar exemplos usando técnica tal para exercitar...". Na minha busca por tentar entender um método do Haml, me deparei com alguns conceitos de metaprogramação. Eu fiz isso, de tentar inventar alguma utilidade para o que eu tinha aprendido, mas não consegui. Depois de pesquisar encontrei alguns exemplos que foram úteis para mim, podem ser pra você também se estiver querendo um desafio que exija metaprogramação em ruby.</p>
+<p>Um dos recursos de metraprogramação em Ruby é a inclusão de métodos em classes do Ruby em tempo de e execução. Aqui vai um exemplo bem simples.</p>
+<p>Suponha que você queria traduzir para o português o método upcase e downcase da classe String, para conseguir fazer algo como:</p>
+<p>[sourcecode language="ruby"]<br />
+puts &quot;Toda string é um objeto da classe String&quot;.maiusculo<br />
+[/sourcecode]</p>
+<p>É só definir a classe String com os novos métodos em português! A expresão que se usa para isso é "abrir a classe". É simples assim, é como se fosse definir a classe, mas como ela já existe o Ruby sabe que ele só precisa incluir os novos métodos.</p>
+<p>[sourcecode language="ruby"]<br />
+class String<br />
+  def maiusculo<br />
+    self.upcase<br />
+  end<br />
+end<br />
+[/sourcecode]</p>
+<p>O próximo exemplo é muito bom e foi retirado da apresentação do David Paniz e Leonardo Bessa (vide links no fim do post). Suponha que seja necessário calcular a tarifa telefônica, em função o horário da ligação. Da 01h00 às 06h00 a tarifa é 1 centavo, no restante do tempo, meio centavo. Poderíamos definir um método para isso cuja a chamada seria algo como:</p>
+<p>[sourcecode language="ruby"]<br />
+calculo = Calculo.new<br />
+calculo.tarifa(horario)<br />
+[/sourcecode]</p>
+<p>Onde o objeto calculo seria a instância de alguma classe contendo métodos diversos. Ou Pior, uma classe só para conter esse método de cálculo de tarifa.</p>
+<p>Mas exite uma maneira mais simples e eficiente. Poderiamos incluir o método tarifa na classe Time, e chamá-lo assim:</p>
+<p>[sourcecode language="ruby"]<br />
+Time.now.tarifa<br />
+[/sourcecode]</p>
+<p>Experimente implementar esse método.</p>
+<p>Assim como fizemos com a classe string, podemos incluir o método tarifa na classe Time. É por isso que falam tanto que o Ruby é uma linguagem bastante orientada a objeto. Chamar Time.now.tarifa é admitir que tarifa é uma propriedade do objeto retornado por Time.now.</p>
+<p>Esses exemplos exploram somente um dos recursos de metaprogramação do Ruby, que é a abertura das classes para incluir nossos próprios métodos. Que fique claro, existe muito mais do que isso em Ruby.</p>
+<p>Na verdade essa história toda de meta prgramação, frameworks, ORMs etc... são esforços feitos pra gente chegar num acordo com a máquina, pra gente se comunicar com a ela de um jeito que ela cumpra bem sua função e agente consiga entender. Enfiar métodos em classes do Ruby a princípio me pareceu meio estranho, meio gambiarra, mas como foi mostrado no exemplo da tarifa, podemos conseguir organizar o código de uma maneira mais "humana", uma maneira que faça mais sentido pra nós, e isso nos ajuda a manter nossa mente concentrada em outros problemas da lógica e regras de negócio.<br />
+Isso faz algum sentido pra você?</p>
+<p>O assunto é bem vasto e esse post é só a ponta do iceberg, ai estão alguns links que me ajuram muito:</p>
+<p><a href="http://www.davidpaniz.com/blog/2009/12/07/metaprogramacao-em-ruby-magia-negra-nao-existe/" target="_blank">Apresentação voodoo é pra jacu (David Paniz e Leonardo Bessa)</a></p>
+<p><a href="http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/" target="_blank">Post do katz</a></p>
+<p><a href="http://www.infoq.com/presentations/metaprogramming-ruby" target="_blank">aprensentação do David Thomas</a></p>
+</div>

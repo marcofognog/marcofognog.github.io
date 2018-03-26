@@ -1,0 +1,23 @@
+---
+layout: post
+title: How to add custom headers to acceptance tests with capybara
+date: 
+type: post
+parent_id: '0'
+published: false
+password: ''
+status: draft
+categories:
+- Outros
+tags: []
+meta:
+  _edit_last: '9774445'
+author:
+  login: marcofognog
+  email: marcofognog@gmail.com
+  display_name: marcofognog
+  first_name: ''
+  last_name: ''
+---
+<p>So I needed to write some automated acceptance tests for the mobile version of a system we were building (using Cucumber-Capybara-Rspec stack). The request would get into Rails and , at some point, would detect the request was made via a mobile device, through the User-Agent header field. Then it would behave differntly, I mean some rules would be diffrent, and of couse it also would spit out a diffrent markup and style.</p>
+<p>I googled it around and didn't find any worthy information, most of them were outdated. The thing is, I needed to make Capybara make the request with a custom HTTP header, specifically, the User-Agent field.</p>

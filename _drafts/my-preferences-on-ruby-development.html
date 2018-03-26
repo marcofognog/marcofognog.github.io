@@ -1,0 +1,30 @@
+---
+layout: post
+title: My preferences on Ruby development
+date: 
+type: post
+parent_id: '0'
+published: false
+password: ''
+status: draft
+categories:
+- Outros
+tags: []
+meta:
+  _edit_last: '9774445'
+author:
+  login: marcofognog
+  email: marcofognog@gmail.com
+  display_name: marcofognog
+  first_name: ''
+  last_name: ''
+---
+<p>I like to have a clean and tested code base, but I am also very pragmatic when coding, chosing explicity over implicty. In most cases, I like pure Ruby rather than DSL's.</p>
+<p>I am very flexible about what libries, technologies and methodolgies I work with, but the following are my preferences.</p>
+<p>For testing, I like test unit, or the rspec runner (but not much fan of the rspec DSL and matchers), capybara. Also, Simplecov or similar is good to track the coverage.</p>
+<p>No SASS ,HAML, or coffescript, but pure CSS, HTML and javascript.</p>
+<p>Those are my preferences, wich doesn't mean I can't work with other technoligies (e.g. HAML).</p>
+<p>How I do testing:</p>
+<p>In general web applications, I don't do unit tests on model, in the most strict sense of the word. But rather, I test the interface of the models (public methods) , and then, if necessary, the private methods. That works good, because I work backwards, first the writing tests about how that object should behave and, then, all private methods are born inside that public method as I refactor it. Technicaly, its a integration test from the model down to the database.</p>
+<p>I aslo like very much to do end-to-end tests with capybara. Cucumber only if there's a business guy willing to write and read that.</p>
+<p>But there's one thing I can't work with, the mockist style of testing. I find it quite unexpressive, highly coupled to the implementation and brittle. Just not worth mantaining.</p>

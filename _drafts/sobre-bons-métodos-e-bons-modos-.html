@@ -1,0 +1,32 @@
+---
+layout: post
+title: Sobre bons métodos (e bons modos)
+date: 
+type: post
+parent_id: '0'
+published: false
+password: ''
+status: draft
+categories:
+- Outros
+tags: []
+meta:
+  _edit_last: '9774445'
+author:
+  login: marcofognog
+  email: marcofognog@gmail.com
+  display_name: marcofognog
+  first_name: ''
+  last_name: ''
+---
+<p>Refletindo sobre como escrever melhores códigos ao programar, e depois de discutir com colegas o trabalho, e depois de ler o livro Clean Code (do Uncle Bob), vale deixar registrado alguns exepmplos de situações comuns com relação a escrita de métodos:</p>
+<ul>
+<li><strong>Blocos de código</strong>. Quando um método tem vários blocos de código, provavelmente ele está violando o princípio da única responsabilidade! Ás vezes o sujeito está agrupando de três em três linhas, três ou quatro blocos, ele pode achar que não precisa fazer mais três ou quatro funcões só por causa disso.... Separar esse blocos em outros métodos geralmente é uma boa idéia para manter o mesmo nívei de abstração</li>
+</ul>
+<ul>
+<li><strong>Manter o nível de abstração.</strong> No livro Clean Code, o autor menciona isso. A leitura de um método deve ter sequência na leitura, quase como uma prosa, ou um texto corrigo. Deve existir uma coesão entre o grau de detalhamento de cada operação. É por isso que ás vezes é melhor substituir essas três linhas por um método só que descreve o que essas três linhas fazem. Isso é manter o mesmo nível de abstração.</li>
+</ul>
+<ul>
+<li><strong>Tamanho dos métodos.</strong> Essa é fácil. Todo mundo já sabe: métodos e funções devem ser curtos. Mas o quantas linhas fazem um método curto? Essa é uma pergunta que não vale a pena tentar responder ... Na verdade o "tamanho" do método se refere ao "tamanho conceitual" dele. É muito bem possível ter um metodo de três ou quatro linhas estremamente complaxo e criptográfico. Separá-lo em três ou quatro (ou mais) métodos pode ser uma boa idéia.</li>
+</ul>
+<p>Preciso de exemplos!</p>

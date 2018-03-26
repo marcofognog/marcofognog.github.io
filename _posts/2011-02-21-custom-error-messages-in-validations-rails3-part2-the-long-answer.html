@@ -1,0 +1,60 @@
+---
+layout: post
+title: Custom error messages in validations - Rails3 - Part#2 The Long Answer
+date: 2011-02-21 03:49:36.000000000 -03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Outros
+tags: []
+meta:
+  _oembed_2ad0dff90af2572860f82e0cf78de700: "{{unknown}}"
+  _oembed_633a37af2ee1bff8f0b0e959bfb1344f: "{{unknown}}"
+  _edit_last: '9774445'
+  _oembed_ea4b1c03eb7b90e9b2da2a70d33c3a50: "{{unknown}}"
+  _oembed_83934c6121b9d71068074fcab071da49: "{{unknown}}"
+  _oembed_094cad54f09d0fe3db54e6510aac32a3: "{{unknown}}"
+  _oembed_fd3a76001f4d78b4b0cb41d0cec4cd72: "{{unknown}}"
+  _oembed_5e38217b007c5caf8a400a2201f131a7: "{{unknown}}"
+  _oembed_69990125c870cebd0cf1cacad406a09a: "{{unknown}}"
+  _oembed_5f12fa1e47f82d7547a7111608d4af6f: "{{unknown}}"
+  _oembed_bee5ad797fe9e48a574db0440cedb3ac: "{{unknown}}"
+  _oembed_72bd74e70e8056bb5fb1229267ab15b1: "{{unknown}}"
+  _oembed_30405477ac6c05f438eab7600348b809: "{{unknown}}"
+  _oembed_20c9ea10a49eddfcf5996ed68d32e63c: "{{unknown}}"
+  _oembed_94dff37905fa50cc16710ebae7e4d4b0: "{{unknown}}"
+  _oembed_682445e9a7531aaf4d44df34c88fb8f6: "{{unknown}}"
+  _oembed_79697e3b0d9ae86a4993e5f7f89d4afc: "{{unknown}}"
+author:
+  login: marcofognog
+  email: marcofognog@gmail.com
+  display_name: marcofognog
+  first_name: ''
+  last_name: ''
+---
+<p>In a previous post I showed how to get customized error messages in Rails3. Here I'm gonna break it down in case the that wasn't clear enough.</p>
+<p><strong>The use of gems</strong></p>
+<p>First, I'd like to point out that there are some gems for this kind of job, here they are:</p>
+<p>https://github.com/gumayunov/custom-err-msg</p>
+<p>https://github.com/markcatley/advanced_errors</p>
+<p>BUT  I think something so trivial like this was not supposed to need extra libraries to get donne. That's why I exclude the use of such gems as an option. The less dependencies, the better.</p>
+<p><strong>The "add_to_base" way</strong></p>
+<p>This is another way to get this job donne, but this method (described <a href="http://lindsaar.net/2008/4/22/tip-14-custom-error-messages-in-validations">here</a> in details) has a few disadvantages.</p>
+<ul>
+<li>This method is used to set a general error message to the object it self, not to any particular attribute. That's why the name of the attribute won't show up. But it just doesn't make sense. See, if it is used for messaging about the "name" attribute, it needs to be "attached" to "name", right? That's the way Rails works.</li>
+<li>Doing this you'r gonna need to rewrite the validation methods. I don't like to rewrite things.  If you'd like to "validate_uniqueness_of" some attribute, you would have to write a method to do that. Can you picture this?</li>
+</ul>
+<p><strong>Doing it right (I suppose)</strong></p>
+<p>If you take a look at the view you scaffolded, you will see somthing like:</p>
+<p>[sourcecode language="ruby"]@instance.errors.full_messages[/sourcecode]</p>
+<p>where full_mesages is a method defined in <a href="https://github.com/rails/rails/blob/master/activemodel/lib/active_model/errors.rb">ActiveModel::Errors</a>. It basically gets the message you specified in the model and prepend it with the attribute name. It does that for each attribute that failed validations, and returns them as an array.</p>
+<p>Use Rails console, and take a look at the output of @instance.errors (of course, create a new instance with nil values in its attributes and try to save it, before). It should return a hash, were the attribute is the key, and the message is the value. The code shown in the previous post loops trough the hash, returning just the messages!</p>
+<p>That how we achieve this without extra libraries, without having to rewrite validations, and makes perfect sense to the framework. And of course, if you found a better way, let me now!</p>
+<p>Links mentioned in this text:</p>
+<p>https://github.com/gumayunov/custom-err-msg</p>
+<p>https://github.com/markcatley/advanced_errors</p>
+<p><a href="http://lindsaar.net/2008/4/22/tip-14-custom-error-messages-in-validations">http://lindsaar.net/2008/4/22/tip-14-custom-error-messages-in-validations</a></p>
+<p><a href="https://github.com/rails/rails/blob/master/activemodel/lib/active_model/errors.rb">https://github.com/rails/rails/blob/master/activemodel/lib/active_model/errors.rb</a></p>
