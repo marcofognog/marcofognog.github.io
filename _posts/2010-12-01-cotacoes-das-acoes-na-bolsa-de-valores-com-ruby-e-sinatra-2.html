@@ -20,8 +20,10 @@ author:
   display_name: marcofognog
   first_name: ''
   last_name: ''
+excerpt_separator: <!--more-->
 ---
 <p>Neste post eu quero explicar como fazer uma aplicação que pegue dados sobre papéis da Bovespa, diretamente do site da Bovespa.</p>
+<!--more-->
 <p>A Bovespa oferece um serviço gatuito de informações sobre as cotações dos papéis negociados, via XML no site deles. É bem provável que seja desse serviço que site como FolhaInvest e o SimulaBolsa conseguem as inforamções para o simulador.</p>
 <p>Esse serviço tem um delay de 15 min. Quer dizer que toda informação estará pelos menos 15 minutos atrasada. A Bovespa tem um serviço que presta informações em tempo real também, mas é pago (e não é barato). Esse serviço pago é muito útil pra quem trabalha como trader e quer implementar seus próprios indicadores no curtíssimo prazo, para operar como <em>daytrader</em>. É provavelmente desse serviço pago da Bovespa que os homebrokers e sites como o ADVFN conseguem informações em tempo real.</p>
 <p>Para conseguir ler os dados, vamo instalar a gem bovespa, com o comando:</p>

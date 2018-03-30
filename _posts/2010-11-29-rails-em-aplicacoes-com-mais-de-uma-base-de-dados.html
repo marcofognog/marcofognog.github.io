@@ -19,8 +19,11 @@ author:
   display_name: marcofognog
   first_name: ''
   last_name: ''
+excerpt_separator: <!--more-->
 ---
 <p>Com a popularização do framework Rails no desenvolvimento de aplicações web, vários softwares estão sendo oferecidos ao mercado no formato de serviço. É o tal do SAS (software as service). Nesse modelo, o usuário paga uma mensalidade para manter uma conta e se beneficiar do sistema de informação.</p>
+
+<!--more-->
 <p>Nesse tipo de sistema, manter bancos de dados diferentes para cada usuário pode ser vantajoso.  A decisão de manter cada conta em bancos separados ou em um único banco é um escolha estratégica muito específica para cada situação, e não é meu objetivo neste post comparar as duas alternativas. Mas assumindo que vamos usar um banco de dados por conta de usuário, gostaria de comentar como o Rails funciona com relação a isso!</p>
 <p>É interessante a simpliciadade com que o rails consegue fazer isso! Veja, é só chamar o método <em>establish_connection</em> dentro do model que voce deseja mudar o banco de dados, passando como argumento uma das configurações de banco do arquivo database.yml, e automaticamente o Rails vai se conectar a esse banco sempre que qualquer método do model for chamado!</p>
 <p>[sourcecode]<br />
