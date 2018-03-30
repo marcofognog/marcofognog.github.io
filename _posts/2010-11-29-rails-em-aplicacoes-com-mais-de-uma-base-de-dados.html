@@ -26,10 +26,10 @@ excerpt_separator: <!--more-->
 <!--more-->
 <p>Nesse tipo de sistema, manter bancos de dados diferentes para cada usuário pode ser vantajoso.  A decisão de manter cada conta em bancos separados ou em um único banco é um escolha estratégica muito específica para cada situação, e não é meu objetivo neste post comparar as duas alternativas. Mas assumindo que vamos usar um banco de dados por conta de usuário, gostaria de comentar como o Rails funciona com relação a isso!</p>
 <p>É interessante a simpliciadade com que o rails consegue fazer isso! Veja, é só chamar o método <em>establish_connection</em> dentro do model que voce deseja mudar o banco de dados, passando como argumento uma das configurações de banco do arquivo database.yml, e automaticamente o Rails vai se conectar a esse banco sempre que qualquer método do model for chamado!</p>
-<p>[sourcecode]<br />
-class Conta &lt; ActiveRecord::Base</p>
-<p>establish_connection :conta<br />
-has_many :proprietarios, :dependent=&gt; :destroy<br />
-end<br />
-[/sourcecode]</p>
+{% highlight ruby linenos %}
+class Conta < ActiveRecord::Base
+  establish_connection :conta
+  has_many :proprietarios, :dependent=> :destroy
+end
+{% endhighlight %}
 <p>Quando precisei fazer isso achei realmente muito bom essa característica que o Rails tem de modularizar e conseguir separar as coisas umas das outras. Veja, com esse forma de implementar conexão com o banco, não precisamos mexer na lógica de negócio do sistema. Todas as regras e relacionamentos continuam os mesmos. É possivel mudar de uma arquitetura sem precisar mexer na lógica! Isso é muito bom. Com isso podemos nos concentrar na lógica quando desenvolvemos a palicação sem nos preocuparmos com a camada de conexão com BD.</p>

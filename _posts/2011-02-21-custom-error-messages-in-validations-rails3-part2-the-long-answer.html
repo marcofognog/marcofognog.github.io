@@ -51,7 +51,10 @@ excerpt_separator: <!--more-->
 </ul>
 <p><strong>Doing it right (I suppose)</strong></p>
 <p>If you take a look at the view you scaffolded, you will see somthing like:</p>
-<p>[sourcecode language="ruby"]@instance.errors.full_messages[/sourcecode]</p>
+{% highlight ruby linenos %}
+@instance.errors.full_messages
+{% endhighlight %}
+
 <p>where full_mesages is a method defined in <a href="https://github.com/rails/rails/blob/master/activemodel/lib/active_model/errors.rb">ActiveModel::Errors</a>. It basically gets the message you specified in the model and prepend it with the attribute name. It does that for each attribute that failed validations, and returns them as an array.</p>
 <p>Use Rails console, and take a look at the output of @instance.errors (of course, create a new instance with nil values in its attributes and try to save it, before). It should return a hash, were the attribute is the key, and the message is the value. The code shown in the previous post loops trough the hash, returning just the messages!</p>
 <p>That how we achieve this without extra libraries, without having to rewrite validations, and makes perfect sense to the framework. And of course, if you found a better way, let me now!</p>
