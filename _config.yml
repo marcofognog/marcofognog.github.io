@@ -11,7 +11,7 @@ title:            'Marco Antonio'
 tagline:          'Marco Antonio'
 description:      'Senior software engineer'
 url:              http://github.com/marcofognog
-baseurl:          /
+baseurl:          ""
 
 author:
   name:           'Marco Antonio'
