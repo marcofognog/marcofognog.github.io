@@ -20,7 +20,7 @@ After working for almost 3.5 years for the company, I am leaving in a few weeks.
 
 So I made this meme looking pie chart:
 
-![task pie]({{ "https://marcofognog.github.io/public/locaweb-pie.png" | absolute_url }})
+![task pie]({{ "public/locaweb-pie.png" | absolute_url }})
 
 This is only my guess. And of course, each project that had a different profile, some required a little more coding while others more investigation, and others involved a lot of discution with the team.
 

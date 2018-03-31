@@ -10,7 +10,7 @@ relative_permalinks: false
 title:            'Marco Antonio'
 tagline:          'Marco Antonio'
 description:      'Senior software engineer'
-url:              http://github.com/marcofognog
+url:              http://marcofognog.github.io/
 baseurl:          ""
 
 author:
