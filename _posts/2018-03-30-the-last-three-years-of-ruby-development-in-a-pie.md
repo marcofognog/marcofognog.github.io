@@ -28,12 +28,12 @@ This is only my guess. And of course, each project that had a different profile,
   This is my favorite. I love talking about what we want to acomplish, and exchanging experiences with the other team members about the problem we are solving.
 
 * **manipulation the git tree of the project:**
-  Beacause we had some code bases with a lot of people working on them at the same time, I had the feeling I spent a good chunk of time rebasing, rewriting commits, solving conflicts, etc... or helping other coleagues to do so. (I actualy enjoy untangling git work trees, seriously!)
+  Because we had some code bases with a lot of people working on them at the same time, I had the feeling I spent a good chunk of time rebasing, rewriting commits, solving conflicts, etc... or helping other coleagues to do so. (I actualy enjoy untangling git work trees, seriously!)
 
 * **reading and investigating:**
   Some of the legacy code had more than a decade of existence. Then some times the work felt more like an archeological task that involved interviewing people from remote areas of the giant open floor office and deciphering ancient writing on the walls (well, there were some ASP on windows servers...).
 
-* **code reviews, architecture and technical discussions:**
+* **code reviews, architectural and technical discussions:**
   We had a very nice code review flow even with all the bumps and bruises that only made the process mature, and there were a lot of knowlogde sharing.
 
 * **coding (programming):**
