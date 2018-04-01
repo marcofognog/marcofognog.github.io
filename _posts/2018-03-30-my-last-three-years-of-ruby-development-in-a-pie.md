@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The last three years of Ruby development in a pie
+title: My last three years of Ruby development in a pie
 date: 2018-03-30
 type: post
 parent_id: '0'
