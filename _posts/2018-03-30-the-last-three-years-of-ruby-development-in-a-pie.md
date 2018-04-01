@@ -39,4 +39,4 @@ This is only my guess. And of course, each project that had a different profile,
 * **coding (programming):**
   Thanks to Ruby (and Rails, git and unix), the easiest part :)
 
-After looking at it again, we too often take for granted all the time and skills necessary for proper software development that don't directly involve coding.
+After looking at it again, it seems we too often take for granted all the time and skills necessary for proper software development that don't directly involve coding.
