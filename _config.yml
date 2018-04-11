@@ -19,5 +19,7 @@ author:
 
 paginate:         5
 
+discus-identifier: marcofognog-blog
+
 # Custom vars
 version:          2.1.0
