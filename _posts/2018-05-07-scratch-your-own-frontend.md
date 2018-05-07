@@ -30,7 +30,8 @@ Heres an ugly (but very didactic) gif from the project's [README](https://github
 
 !["xmousable demo"](https://raw.githubusercontent.com/marcofognog/xmousable/master/xmousable-demo-1.gif "xmousable demo")
 
-*TIP: it's possible to make it (link prettier) passing parameters to not show the letters.*
+*TIP: it's possible to make it [prettier](https://raw.githubusercontent.com/marcofognog/xmousable/master/xmousable-demo-2.gif "xmousable prettier") passing parameters to not show the letters.*
+
 
 If it were a comercial software, in the *LEAN* community we'd call it *MVP*, in this case I'd call it a *prototype*: it's code is still clumsy but is enough to start testing in the real world (which is only my machine so far). If my approach is good enough, then I might want to invest more time and effort on improving it.
 
