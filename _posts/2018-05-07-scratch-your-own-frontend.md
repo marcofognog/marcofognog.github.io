@@ -18,7 +18,7 @@ author:
 
 I had this itch that I was never able to scratch before: whenever I was in that **coding flow**, with both hands at the keyboard, sometimes I'd need to get one of them off to reach for the mouse. I know, I know ... the time that it takes might not justify my complaints, but it always feels super unconfortable and distracting.
 
-After working for almost 7 years as Rails developer, mostly in the backend, I notice now I had a legit * desktop frontend * problem to solve. And the Linux frontend (X11, to be precise) development is a whole other world from what I was used to. Right then I knew it was going to be a fun litle project.
+After working for almost 7 years as Rails developer, mostly in the backend, I notice now I had a legit * desktop frontend * problem to solve. And the Linux frontend (X11, to be precise) development is a whole other world from what I am used to work with. Right then I knew it was going to be a fun litle project.
 
 The result is this [* xmousable *](https://github.com/marcofognog/xmousable) app, it has an X in the name because it is a client of the X11 graphics server. Hey, I'm just serving the naming tradition, not trying to be cool.
 
