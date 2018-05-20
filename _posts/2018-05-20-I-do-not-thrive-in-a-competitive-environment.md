@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  I do not thrive in a competitive environment
-date: 2018-05-07
+date: 2018-05-20
 type: post
 parent_id: '0'
 published: true
