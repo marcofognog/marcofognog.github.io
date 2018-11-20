@@ -22,6 +22,8 @@ When I first tried using it, I thought I'd never be able to master it.
 Although you are expected to type even slower then with the traditional layout in the begining, the feeling of unproductiveness is quite painfull.
 But after 2 months of daily practice I was able to type more comfortably, just as the manual suggests, curiously enough.
 
+![me typing on kinesis advantage]({{ "public/me-typing-on-kinesis.gif" | absolute_url }})
+
 Now I judge this to be the best device for typing, because it delivers what it promises:
 
  - **The separe hand position** favors a better posture.
