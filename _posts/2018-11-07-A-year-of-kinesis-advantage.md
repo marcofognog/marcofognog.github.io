@@ -18,21 +18,22 @@ author:
 
 I know ... I know ... it is a scary, wierd looking keyboard.
 
-When I first tried using it, I thought I'd never be able to master it.
+When I first tried, I thought I'd never be able to master it.
 Although you are expected to type even slower then with the traditional layout in the begining, the feeling of unproductiveness is quite painfull.
-But after 2 months of daily practice I was able to type more comfortably, just as the manual suggests, curiously enough.
+But after around 2 months of daily practice I was able to type more comfortably, just as the manual predicts, curiously enough.
 
 ![me typing on kinesis advantage]({{ "public/me-typing-on-kinesis.gif" | absolute_url }})
 
 Now I judge this to be the best device for typing, because it delivers what it promises:
 
- - **The separe hand position** favors a better posture.
+ - **The separate hand position** favors a better posture.
  If you are working for hours every day, this is not something to disregard.
  Also, this makes it harder for you to cheat using the "wrong" hand/finger to type each key.
 
  - **The keys are aligned**, instead of that wierd diagonal layout inherited from the typewritters.
+ The keys needed to be arrenged in a way to avoid the levers to clash into each other.
  There's no reason for that anymore, but we are still doing it.
- (I always remember the story of the monkeys and the ladder)
+ (I always remember the story of the [monkeys and the ladder](http://www.throwcase.com/2014/12/21/that-five-monkeys-and-a-banana-story-is-rubbish/))
 
  - **Finger load balancing**: you can use the thumbs!
  They are smart fingers that are underused and understimated in the traditional layout. (Two thumbs for one spacebar!)
@@ -43,7 +44,10 @@ I've always been a bad typist before.
 I now can touch type around 60 wpm comfortably, and I don't think I'm ever going to be much faster than that, but health wise I'm much better.
 I feel my typing to be more fluent and relaxed then ever.
 
-I often hear that the Kinesis Advantage 2 is an expensive keyboard.
-I think it is as expensive as a cellphone, but the keyboard is something that I'll spend hours interacting with every day and it's part of my job, my source of income.
-Whereas the cellphone (for me) is more like a toy that I play with a few times a day.
-Getting wrist, elbow or back pain, or simply annoyed or stressed by bad posture and bad typing habits is much more expensive, in my opinion.
+**Expensive?**
+
+I often hear that the Kinesis Advantage 2 is an expensive keyboard!
+It could cost as much as a fancy cellphone, but the keyboard is something that I'll spend hours interacting with every day and it's part of my job, my source of income.
+
+
+It would be much more expensive to get wrist, elbow or back pain, or simply be annoyed or stressed by bad posture and bad typing habits.
