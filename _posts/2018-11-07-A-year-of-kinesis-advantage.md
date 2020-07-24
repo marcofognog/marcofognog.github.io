@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A year of Kinesis Advantage, honestly
+title: A year of fancy keyboard, honestly (Kinesis Advantage)
 date: 2018-11-10
 type: post
 parent_id: '0'
