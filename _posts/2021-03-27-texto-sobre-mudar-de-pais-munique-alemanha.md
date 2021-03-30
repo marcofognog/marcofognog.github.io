@@ -46,15 +46,21 @@ Eu indignado respondia:
 
 Eu demorei um pouco pra aceitar isso, mas agora entendo que faz sentido, pois a população estava num processo de envelhecimento. Isso gera o risco do povo desaparecer ou (talvez antes disso) a economia começar a falhar, por falta de pessoas em idade “economicamente ativa”.
 
+---
+
 Nas primeiras semanas, estava na fila da máquina pra comprar um passe de transporte, dentro da estação de trem. O sujeito que usava a máquina na vez dele virou e me disse algo em alemão, ao que eu obviamente respondi “Sóri, ai donti anderstendi” com cara de susto. Aí ele virou pro outro que estava também na fila e disse a mesma coisa, e eles começaram a inspecionar a máquina, dar uns tapas nela e apontavam para a tela e riam. Eu olhava pra tela e só via consoantes, tudo normal. Por que eles riam? O que aconteceu ali? Nunca vou saber.
 
 Sabe a sensação de estar na casa de um conhecido (mas não amigo)? Você não sabe se pode sentar, se pode ser servir ou se pede para ser servido, ou se pode abrir a janela. Você não conhece as regras da casa. Pois é uma sensação parecida, só que aumentada. No começo é sempre assim, ficar observando e tentando entender qual é a regra, e por que as pessoas fazem o que elas fazem. E é uma arte sútil apreciar como as regras influenciam nosso comportamento e nossas escolhas. Até mesmo escolhas importantes como casar e trabalhar. Aliás o tópico “regras” parece ser bem corriqueiro na cultura alemã, mas acho que isso é assunto pra outra conversa.
 
 No mais, tive que me adaptar com a cultura da não interrupção ao falar, com o fato de que eles não tem vergonhinha de corpo pelado, de que acham chique não se impressionar (ou de não demonstrar isso), e são não necessariamente educados, mas extramente diplomáticos.
 
+---
+
 Quando me mudei para São Paulo (capital) fiquei uns meses em um albergue barato, perto da estação Vila das Belezas. Não é um bairro particularmente perigoso, mas eu não dava bobeira na rua depois que anoitecia. Quando me mudei para um condomínio, este tinha uma pequena área verde com uma trilha que dava para a quadra. Fiz várias caminhadas leves lá, varias vezes à noite, e me sentia muito privilegiado de poder sentar num banco de praça cercado de flores ao ar livre, sem precisar me preocupar.
 
 Em Munique, se por um lado o mercado imobiliário agresssivo pressiona para menores área privadas, a segurança e o cuidado que a cidade tem com os espaços públicos me dá sensação de que eu tenho um grande quintal. Aliás esse conceito de condomínio privado parece não ser comum aqui, e faz sentido, já que a cidade é como um grande condomínio público. Tem muita área verde e ciclovias. Pedalar aqui é um sonho. Não só pelas ciclovias, mas também por que ninguém acha estranho usar bicicleta como meio de transporte. Aqui eu não preciso ficar dando expilcações aos colegas de trabalho quando chego de bicicleta. Não somente é consenso que a bike é excelente meio de transporte, como também é parte da cultura alemã ter um certo orgulho disso.
+
+---
 
 Eu lembro de ouvir desde criança, que o Brasil é um país abençoado, sem terremoto, sem vulcão, sem furacão e sem guerra com um povo cheio de energia. É tudo verdade. Eu sei, eu sei. Agente tem muitos problemas, mas é sempre do lado de dentro da casa.
 
@@ -64,11 +70,15 @@ Agora eu também parei de falar casualmente sobre isso, pra tocar no assunto pre
 
 E ainda nem mencionei as histórias horrorosas dessa época, cada coisa triste de dar frio na espinha. Aliás, recomendo a série do Netflix “unsere mütter unsere väter” (nossas mães, nossos pais), que conta como a segunda guerra afetou um grupo de amigos. Com esse seriado eu percebi como eu cresci com uma visão romantizada da guerra, que é a visão dos filmes estadunidenses. Quando criança eu colecionava bonequinhos de guerra, com helicópteros e tanques de guerra, e todos os desenhos animados sempre tinham um cenário de guerra. Teve uma época que eu queira muito ter um revolver de espoleta. Era uma coisa que se supunha ser brinquedo de criança. Hoje vejo como um escândalo dar um coisa dessas pras crianças, não só por ser perigoso mas também pela fetichisação das armas de fogo.
 
+---
+
 No começo eu achava engraçado falar sobre o nosso presidente com os colegas estrangeiros, e tinha curiosidade pra saber o que eles pensavam. A graça acabou logo, substituída por uma vergonha. É uma vergonha estranha, é uma vergonha triste. Por que quando voce faz alguma besteira, voce lida com isso. Bater foto com casca de feijão no dente? ok. Ou então, se trancar pra fora do apartamento (do lado de fora as portas só se abrem com chave), ou demorar de mais pra avisar a senhorinha na banca de jornal, que já está falando comigo há 5 minutos, que eu não entendo nada do que ela esta falando em Alemão …
 
 Eu demorei pra aprender a como reagir aos comentários. Às vezes, em eventos sociais, algum alemão vem perguntar o que eu acho do presidente, já com aquele sorrisinho de canto de boca, sabe? Como eu traduzo “boçal”? Como fala “estrupício”? Certa vez, na ingenuidade de traduzir direto do Português, disse que nosso “president is a door”. A moça na roda da conversa quis ajudar completando: “ador …adorable?” Tadinha.
 
 Mas acho que o pior é quando eu tentava explicar a minha frustação do Bolsonaro pra colegas Alemães, e eles não se impressionavam. Pra eles tudo normal, um paiséco com um presidenteco. Porque eles não sabem do tamanho do Brasil, do tamanho da literatura, das danças, da música, das riquezas naturais e do povo bom e trabalhador. Pelo menos o Trump nos EUA ajuda a aliviar esse efeito. O colega estadunidense estava besabafando outro dia “como que pode um país como os USA ter um presidente desse nível?” E todos concordavam perplexos.
+
+---
 
 Nunca senti muita saudade na minha vida até vir morar aqui. Naturalmente eu sinto saudade dos pais, da famíla e amigos, mas também notei que ficava com saudade de Brasil. É como se existisse uma coisa invisível da qual eu sinti falta. Comprei um violão e voltei a praticar as músicas brasileiras que conhecia e aprendi algumas outras novas, e percebi como a música também ajuda a nos conectar com o país. É como se por alguns minutos eu estivesse no Brasil. Agente brasileiro não percebe isso, mas nas músicas Brasileiras existe tanta brasilidade na letra, no gingado, na harmonia, tudo se completa de um jeito que só se vê no Brasil. Mas agente só percebe no contraste com a vida no exterior. E quando estrangeiros comentam que os brasileiros são calorosos, mais hospitaleiros e mais bondosos, é tudo verdade.
 
