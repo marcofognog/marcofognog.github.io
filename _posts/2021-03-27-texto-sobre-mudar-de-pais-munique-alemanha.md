@@ -28,7 +28,7 @@ Logo no começo da pesquisa por moradia ficou claro que aqui é mais comum as pe
 
 Eu trabalho com engenharia de software em uma startup (se prepare para anglicismos) Alemã novinha, com cerca de 3 anos de idade. Os founders (que não devem ter nem 30 anos) participaram de um round de apoio do governo no início do projeto, e receberam um investimento a fundo perdido, salários por um ano para cada e um escritório na universidade da cidade, como num programa de aceleração de startups. Depois eles também receberam mais investimentos em um programa famoso no mundo das startups (Ycombinator). As pessoas na empresa são massa e os líderes parecem que sabem o que querem, eu gosto.
 
-Antes de morar aqui, morava com um colega Russo com a mesma idade que eu, ele era o inquilio principal e eu sublocava um dos quartos. Já tinhamos combinado logo no começo que era temporário, pois ele tinha planos de casar e começar uma família (com a namorada que ainda estava na Rússia), ia precisar do quarto de volta. Lembro de uma das conversas, onde Valentin começava:
+Antes de morar aqui, morava com um colega Russo com a mesma idade que eu, ele era o inquilio principal e eu sublocava um dos quartos. Já tinhamos combinado logo no começo que era temporário, pois ele tinha planos de casar e começar uma família (com a namorada que ainda estava na Rússia), ia precisar do quarto de volta. Lembro de uma das conversas, onde Vladimir começava:
 
 — Aqui na Alemanha vale muito a pena casar, sabia que o governo te paga até 600 euros por mês por estar casado? e depois mais 400 pelo primeiro filho.
 
